@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <style>
+      button:hover {
+        color: red;
+      }
+
+      button:active {
+        color: green;
+      }
+
+      button:focus {
+        color: orange;
+      }
+
+      button {
+        display: block;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+      <h1>DOM breakpoints</h1>
+      <ul>
+        <li>Break on subtree modifications</li>
+        <li>Break on attribute modifications</li>
+        <li>Break on node removal</li>
+        <li>:acitve, :focus ...</li>
+      </ul>
+      
+      <button id="click-to-expand">Click me to add a item</button>
+      <button id="click-to-remove">Click me to move a item</button>
+      <button id="click-to-color">Click me to change item's color</button>
+      <ul id="panel">
+      </ul>
+
+      <script src="03.DOM-breakpoints.js"></script>
+  </body>
+</html>
