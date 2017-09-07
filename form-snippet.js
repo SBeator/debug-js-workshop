@@ -1,0 +1,1 @@
+document.querySelectorAll('input').forEach((input) => {input.value = input.name})
